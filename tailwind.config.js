@@ -13,6 +13,9 @@ export default {
         "dark-grayish-violet": "hsl(279, 6%, 55%)",
         "very-dark-violet": "hsl(278, 68%, 11%)",
       },
+      spacing: {
+        cardPos: "calc(50% - 264px)",
+      },
     },
   },
   plugins: [],

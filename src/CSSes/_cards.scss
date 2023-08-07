@@ -1,0 +1,10 @@
+@layer components {
+  #cards {
+    > div {
+      @apply absolute w-[448px] h-[246px];
+      > #card {
+        @apply relative;
+      }
+    }
+  }
+}

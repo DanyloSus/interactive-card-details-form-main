@@ -4,4 +4,44 @@
 @tailwind utilities;
 :root {
   font-family: "Space Grotesk", sans-serif;
+}
+
+@layer components {
+  * {
+    @apply text-very-dark-violet;
+  }
+}
+@layer components {
+  form div {
+    @apply relative;
+  }
+  form > div > div {
+    @apply relative;
+  }
+  form > div > div > input {
+    @apply w-[380px];
+  }
+  form > div > div > div > div > input {
+    @apply w-[78px];
+  }
+  input.normal {
+    @apply w-[188px];
+  }
+  input {
+    @apply border border-light-grayish-violet text-dark-grayish-violet px-4 py-3 rounded-lg;
+  }
+  p {
+    @apply tracking-widest text-sm;
+  }
+  span {
+    @apply absolute -bottom-7 text-red transition-opacity;
+  }
+}
+@layer components {
+  #cards > div {
+    @apply absolute w-[448px] h-[246px];
+  }
+  #cards > div > #card {
+    @apply relative;
+  }
 }/*# sourceMappingURL=index.css.map */

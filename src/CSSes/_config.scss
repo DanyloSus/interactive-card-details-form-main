@@ -7,3 +7,9 @@
 :root {
   font-family: "Space Grotesk", sans-serif;
 }
+
+@layer components {
+  * {
+    @apply text-very-dark-violet;
+  }
+}

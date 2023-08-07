@@ -1,0 +1,30 @@
+@layer components {
+  form {
+    div {
+      @apply relative;
+    }
+    > div > div {
+      @apply relative;
+      > input {
+        @apply w-[380px];
+      }
+      > div > div {
+        > input {
+          @apply w-[78px];
+        }
+      }
+    }
+  }
+  input.normal {
+    @apply w-[188px];
+  }
+  input {
+    @apply border border-light-grayish-violet text-dark-grayish-violet px-4 py-3 rounded-lg;
+  }
+  p {
+    @apply tracking-widest text-sm;
+  }
+  span {
+    @apply absolute -bottom-7 text-red transition-opacity;
+  }
+}
