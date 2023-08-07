@@ -8,9 +8,8 @@ const App = () => {
   const scene = useCardState((s) => s.scene);
 
   return (
-    <main className="h-screen w-screen flex">
+    <main className="h-screen w-screen flex lg:flex-col overflow-x-hidden">
       <BG />
-
       {scene === 1 ? <Main /> : <Thanks />}
       <Cards />
     </main>

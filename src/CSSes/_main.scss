@@ -6,17 +6,17 @@
     > div > div {
       @apply relative;
       > input {
-        @apply w-[380px];
+        @apply w-[380px] lg:w-full;
       }
       > div > div {
         > input {
-          @apply w-[78px];
+          @apply w-[78px] lg:w-[72px];
         }
       }
     }
   }
   input.normal {
-    @apply w-[188px];
+    @apply w-[188px] lg:w-full;
   }
   input {
     @apply border border-light-grayish-violet text-dark-grayish-violet px-4 py-3 rounded-lg;

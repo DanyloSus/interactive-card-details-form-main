@@ -16,6 +16,9 @@ export default {
       spacing: {
         cardPos: "calc(50% - 264px)",
       },
+      screens: {
+        lg: { max: "1024px" },
+      },
     },
   },
   plugins: [],

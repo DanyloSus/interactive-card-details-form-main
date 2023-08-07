@@ -19,13 +19,13 @@
     @apply relative;
   }
   form > div > div > input {
-    @apply w-[380px];
+    @apply w-[380px] lg:w-full;
   }
   form > div > div > div > div > input {
-    @apply w-[78px];
+    @apply w-[78px] lg:w-[72px];
   }
   input.normal {
-    @apply w-[188px];
+    @apply w-[188px] lg:w-full;
   }
   input {
     @apply border border-light-grayish-violet text-dark-grayish-violet px-4 py-3 rounded-lg;
@@ -39,7 +39,7 @@
 }
 @layer components {
   #cards > div {
-    @apply absolute w-[448px] h-[246px];
+    @apply absolute w-[448px] h-[246px] lg:w-[286px] lg:h-[158px];
   }
   #cards > div > #card {
     @apply relative;

@@ -1,7 +1,7 @@
 @layer components {
   #cards {
     > div {
-      @apply absolute w-[448px] h-[246px];
+      @apply absolute w-[448px] h-[246px] lg:w-[286px] lg:h-[158px];
       > #card {
         @apply relative;
       }

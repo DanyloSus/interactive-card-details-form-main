@@ -18,10 +18,10 @@ const Main = () => {
 
   return (
     <form
-      className="flex h-screen w-full items-center justify-center ml-14"
+      className="flex h-screen w-full items-center justify-center ml-14 lg:justify-start lg:items-start lg:mt-[94px] lg:px-6 lg:pb-11 lg:h-full lg:w-screen lg:m-0"
       onSubmit={check}
     >
-      <div className="flex flex-col gap-[30px] ml-14">
+      <div className="flex flex-col gap-[30px] ml-14 lg:ml-0 lg:gap-[26px]">
         <div id="name">
           <p>CARDHOLDER NAME</p>
           <input
@@ -53,7 +53,7 @@ const Main = () => {
         </div>
         <div className="flex justify-between">
           <div id="mm/yy">
-            <p>EXP. DATE (MM/YY)</p>
+            <p className=" overflow-visible">EXP. DATE (MM/YY)</p>
             <div className="flex justify-between">
               <input
                 type="text"
@@ -79,7 +79,7 @@ const Main = () => {
               </span>
             </div>
           </div>
-          <div id="cvc">
+          <div id="cvc" className="lg:ml-3">
             <p>CVC</p>
             <input
               type="text"
@@ -97,7 +97,7 @@ const Main = () => {
         <input
           type="submit"
           value="Confirm"
-          className="bg-very-dark-violet text-white cursor-pointer w-full pb-3 text-xl mt-5"
+          className="bg-very-dark-violet text-white cursor-pointer w-full pb-3 text-xl mt-5 lg:mt-1"
         />
       </div>
     </form>
