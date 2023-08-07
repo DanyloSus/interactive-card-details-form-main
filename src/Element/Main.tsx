@@ -18,7 +18,7 @@ const Main = () => {
 
   return (
     <form
-      className="flex h-screen w-full items-center justify-center ml-14 lg:justify-start lg:items-start lg:mt-[94px] lg:px-6 lg:pb-11 lg:h-full lg:w-screen lg:m-0"
+      className="flex h-screen w-full items-center justify-center ml-14 lg:justify-start lg:items-start lg:mt-[94px] lg:px-6 lg:pb-11 lg:h-full lg:w-screen lg:m-0 main-left"
       onSubmit={check}
     >
       <div className="flex flex-col gap-[30px] ml-14 lg:ml-0 lg:gap-[26px]">

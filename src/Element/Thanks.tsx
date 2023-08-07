@@ -1,6 +1,6 @@
 const Thanks = () => {
   return (
-    <div className="h-screen w-full flex items-center justify-center mr-10 lg:mt-[94px] lg:m-0 lg:px-6 lg:pb-11 overflow-x-hidden overflow-y-auto">
+    <div className="h-screen w-full flex items-center justify-center mr-10 lg:mt-[94px] lg:m-0 lg:px-6 lg:pb-11 overflow-x-hidden overflow-y-auto bg-left">
       <div className="flex flex-col gap-3 items-center min-w-[380px] lg:min-w-full lg:max-w-full ml-10 lg:m-0">
         <img src="./icon-complete.svg" alt="icon complete" />
         <h1 className="text-2xl tracking-widest">THANK YOU!</h1>

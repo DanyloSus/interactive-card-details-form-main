@@ -8,7 +8,7 @@ const Cards = () => {
       id="cards"
       className="absolute w-[542px] flex flex-col gap-9 top-cardPos left-[0px] xl:left-[8.7805%] h-[528px] lg:w-[342px] lg:left-4 lg:top-8 lg:h-[258px] overflow-x-hidden"
     >
-      <div className="lg:bottom-0 z-10">
+      <div className="lg:bottom-0 z-10 card-left">
         <img src="./bg-card-front.png" alt="bg card front" id="card" />
         <img
           src="./card-logo.svg"
@@ -25,7 +25,7 @@ const Cards = () => {
           {mm ? mm : "09"}/{yy ? yy : "01"}
         </p>
       </div>
-      <div className="bottom-0 right-0 lg:top-0">
+      <div className="bottom-0 right-0 lg:top-0 card-right">
         <img
           src="./bg-card-back.png"
           alt="bg card back"
